@@ -122,6 +122,11 @@ body {
     font-size: 16px;
 }
 
+#restart:hover {
+    background-color: #b393d3;
+    color: black;
+}
+
 @media screen and (max-width: 1281px) {
     #game{
         width: 500px;
