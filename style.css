@@ -81,6 +81,18 @@ body {
     background: #bf9aca;
 }
 
+.splash{
+    cursor : pointer;
+    position : fixed;
+    top : 50%;
+    left : 50%;
+    height : 150%;
+    width : 105%;
+    transform : translate(-50%,-50%);    
+    background-color: black;
+    transition : all ease-in-out 600ms;
+}
+
 @media screen and (max-width: 1281px) {
     #game{
         width: 500px;
