@@ -95,5 +95,10 @@ body {
         padding-right: 60px;
         padding-left: 50px;
     }
-    
+    #back {
+        font-size:250%;
+    }
+    #front {
+        font-size:250%;
+    }
 }
