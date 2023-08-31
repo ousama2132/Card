@@ -30,3 +30,8 @@ function disableCards() {
 
     resetTable();
 }
+
+function resetTable () {
+    [hasFlippedCard,lockTable] = [false,false];
+    [firstCard,secondCard]=[null,null];
+}
