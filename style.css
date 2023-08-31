@@ -42,4 +42,19 @@ body {
 }
 
 
+#card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(25% - 10px);
+    height: calc(33.333% - 10px);
+    margin: 5px;
+    position: relative;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    border-radius: 16px;
+    transition: transform 0.3s;
+    background: #bf9aca;
+}
+
 
