@@ -115,4 +115,10 @@ body {
         padding-right: 50px;
         padding-left: 50px;
     }
+    #front {
+        font-size:250%;
+    }
+    #back {
+        font-size:250%;
+    }
 }
