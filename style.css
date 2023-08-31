@@ -75,3 +75,8 @@ body {
     backface-visibility: hidden;
     backdrop-filter: blur(2.8px);
 }
+
+#back {
+    transform: rotateY(180deg);
+    background: #bf9aca;
+}
