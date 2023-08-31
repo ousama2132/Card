@@ -35,3 +35,14 @@ function resetTable () {
     [hasFlippedCard,lockTable] = [false,false];
     [firstCard,secondCard]=[null,null];
 }
+
+function unflipCards() {
+    lockTable = true;
+
+    setTimeout(() => {
+        firstCard.classList.remove("flip");
+        secondCard.classList.remove("flip");
+        resetTable();
+
+    }, 700)
+}
