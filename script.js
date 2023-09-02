@@ -4,6 +4,8 @@ let hasFlippedCard = false;
 let lockTable = false;
 let firstCard, secondCard;
 
+cards.forEach((card) => card.addEventListener("click",flipCard))
+
 function flipCard() {
     if (lockTable) return ;
     if (this === firstCard) return;
@@ -31,11 +33,6 @@ function disableCards() {
     resetTable();
 }
 
-function resetTable () {
-    [hasFlippedCard,lockTable] = [false,false];
-    [firstCard,secondCard]=[null,null];
-}
-
 function unflipCards() {
     lockTable = true;
 
@@ -46,6 +43,12 @@ function unflipCards() {
 
     }, 700)
 }
+
+function resetTable () {
+    [hasFlippedCard,lockTable] = [false,false];
+    [firstCard,secondCard]=[null,null];
+}
+
 
 (function shuffle() {
     cards.forEach((card)=> {
@@ -62,3 +65,17 @@ splashScreen.addEventListener('click',()=>{
   },610)
 })
 
+restart.addEventListener("click", restartMemory);
+
+function restartMemory() {
+    cards.forEach(card => {
+        card.classList.remove("flip");
+        card.addEventListener("click", flipCard); 
+    });
+    (function shuffle() {
+        cards.forEach((card)=> {
+            let randomPos=Math.floor(Math.random()*12);
+            card.style.order=randomPos;
+        })
+    }) ()
+}
