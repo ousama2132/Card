@@ -26,34 +26,34 @@ Once all cards are matched the user may choose to restart the game which will fl
 I created wireframes to showcase my project in a simplistic manner using Lucidchart. I will be creating a mobile, desktop and tablet screen size wireframe
 
 ## Mobile
-- [game]()
+- [game](image/phone.png)
 
 ## Desktop
-- [game]()
+- [game](image/desktop.png)
 
 ## tablet
-- [game]()
+- [game](image/tablet.png)
 
 # Color
 On my website, I initially opted for a purple textual content against a black history to acquire a exceptional evaluation. To further intensify this evaluation and make the text pop, I added purple shadows in the back of the text. This now not only amplified the difference but additionally delivered a layer of intensity, making the text greater visually charming. I decided to use color contrast https://shorturl.at/rzOSU to see combinations and opted for the AAA combination.
 
-![alt-text](Read_image/color.png)
+![alt-text](image/color.png)
 
 # Features
 ## Start screen
 - Appears when you first load in and fade away when clicked. It shows the instructions of how to play the game in a simple but straight forward manner. 
-![Start-Screen]()
+![Start-Screen](image/Start-Screen.png)
 
 ## Game 
 - Upon clicking the start screen, users are immediately presented with the game's title, "Memory", enhanced by a shadow effect for emphasis. Displayed below the title is an interactive grid of 12 images, arranged in a 4x3 column, which players can click to flip.
 
-![Game]()
+![Game](image/game.png)
 
 - When a card is flipped, it stays face-up until a second card is chosen. At this point, the system, powered by Java, determines if there's a match. If not, both cards revert to their face-down positions, challenging the player to remember the images and their locations for subsequent attempts.
 
 - Successful matches stay visible, allowing the player to track their progress and focus on unmatched pairs. After successfully identifying all matching pairs, players have the option to restart, which shuffles the cards for a new challenge.
 
-![Fliped-Card]()
+![Fliped-Card](image/flip.png)
 
 # Features left to implement
 - Due to constraints on the development timeframe, several key features were left pending for future iterations of the game.
@@ -76,25 +76,25 @@ On my website, I initially opted for a purple textual content against a black hi
 
 ## Manual Testing 
 
-![manual]()
+![manual](image/manual.png)
 
 ## Valitor Testing 
 - HTML validtor came back with no issues
 
-![html]()
+![html](image/html.png)
 
 -Css validtor came back with no issues
 
-![css]()
+![css](image/css.png)
 
 -Java's validtor came back with issue of ES6 version which i believe has nothing to do with my actual code
 
-![java]()
+![java](image/java.png)
 
 ## LightHouse testing
 - I am very satisfied with my lighthouse result but id like to increase my SEO 
 
-![lighthouse]()
+![lighthouse](image/lighthouse.png)
 
 ## Bugs
 - In the journey of developing my project, I was fortunate not to come across bugs. However, this doesn't mean the path was entirely smooth. There were moments when I encountered code behaviors that seemed illogical or didn't align with my initial expectations. These inexplicable issues, while not bugs in the traditional sense, still posed significant challenges, threatening to disrupt the seamless functionality I aimed for. Rather than allowing these issues to escalate, I adopted a proactive approach. By diligently reviewing every line of my code and cross-referencing it with reliable online resources, especially W3Schools, I ensured that I was following best practices and standards. This consistent and thorough review process became my shield, allowing me to identify potential pitfalls before they morphed into bigger problems.
