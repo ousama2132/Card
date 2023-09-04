@@ -26,13 +26,13 @@ Once all cards are matched the user may choose to restart the game which will fl
 I created wireframes to showcase my project in a simplistic manner using Lucidchart. I will be creating a mobile, desktop and tablet screen size wireframe
 
 ## Mobile
-- [game](image/phone.png)
+- ![game](image/phone.png)
 
 ## Desktop
-- [game](image/desktop.png)
+- ![game](image/desktop.png)
 
 ## tablet
-- [game](image/tablet.png)
+- ![game](image/tablet.png)
 
 # Color
 On my website, I initially opted for a purple textual content against a black history to acquire a exceptional evaluation. To further intensify this evaluation and make the text pop, I added purple shadows in the back of the text. This now not only amplified the difference but additionally delivered a layer of intensity, making the text greater visually charming. I decided to use color contrast https://shorturl.at/rzOSU to see combinations and opted for the AAA combination.
