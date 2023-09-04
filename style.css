@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-header {
+header h1 {
     color: #bf9aca; 
     padding: 0 1rem;
     display: flex;

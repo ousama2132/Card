@@ -1,10 +1,10 @@
-const cards = document.querySelectorAll("#card")
+const cards = document.querySelectorAll(".card");
 
 let hasFlippedCard = false;
 let lockTable = false;
 let firstCard, secondCard;
 
-cards.forEach((card) => card.addEventListener("click",flipCard))
+cards.forEach((card) => card.addEventListener("click",flipCard));
 
 function flipCard() {
     if (lockTable) return ;
@@ -22,7 +22,7 @@ function flipCard() {
 }
 
 function checkForMatch() {
-    let isMatch = firstCard.dataset.framework === secondCard.dataset.framework
+    let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
     isMatch?disableCards(): unflipCards();
 }
 
@@ -41,7 +41,7 @@ function unflipCards() {
         secondCard.classList.remove("flip");
         resetTable();
 
-    }, 700)
+    }, 700);
 }
 
 function resetTable () {
@@ -54,16 +54,16 @@ function resetTable () {
     cards.forEach((card)=> {
         let randomPos=Math.floor(Math.random()*12);
         card.style.order=randomPos;
-    })
-}) ()
+    });
+}) ();
 
 var splashScreen = document.querySelector('.splash');
 splashScreen.addEventListener('click',()=>{
   splashScreen.style.opacity = 0;
   setTimeout(()=>{
-    splashScreen.classList.add('hidden')
-  },610)
-})
+    splashScreen.classList.add('hidden');
+  },610);
+});
 
 restart.addEventListener("click", restartMemory);
 
@@ -76,6 +76,6 @@ function restartMemory() {
         cards.forEach((card)=> {
             let randomPos=Math.floor(Math.random()*12);
             card.style.order=randomPos;
-        })
-    }) ()
+        });
+    }) ();
 }
