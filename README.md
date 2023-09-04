@@ -4,7 +4,7 @@ The Memory Game is a classic solo challenge of pattern recognition and recall. S
 
 Once all cards are matched the user may choose to restart the game which will flip calll the cards and shuffle it again allowing for a multiple game experience.
 
-![alt-text]()
+![website](image/website.png)
 
 # Planning
 
