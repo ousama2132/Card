@@ -79,4 +79,61 @@ On my website, I initially opted for a purple textual content against a black hi
 ![manual]()
 
 ## Valitor Testing 
-- 
+- HTML validtor came back with no issues
+
+![html]()
+
+-Css validtor came back with no issues
+
+![css]()
+
+-Java's validtor came back with issue of ES6 version which i believe has nothing to do with my actual code
+
+![java]()
+
+## LightHouse testing
+- I am very satisfied with my lighthouse result but id like to increase my SEO 
+
+![lighthouse]()
+
+## Bugs
+- In the journey of developing my project, I was fortunate not to come across bugs. However, this doesn't mean the path was entirely smooth. There were moments when I encountered code behaviors that seemed illogical or didn't align with my initial expectations. These inexplicable issues, while not bugs in the traditional sense, still posed significant challenges, threatening to disrupt the seamless functionality I aimed for. Rather than allowing these issues to escalate, I adopted a proactive approach. By diligently reviewing every line of my code and cross-referencing it with reliable online resources, especially W3Schools, I ensured that I was following best practices and standards. This consistent and thorough review process became my shield, allowing me to identify potential pitfalls before they morphed into bigger problems.
+
+# Deployment
+- Go to the Settings tab of your GitHub repo.
+- On the left-hand sidebar, in the Code and automation section, select Pages.
+- Make sure:
+- Source is set to 'Deploy from Branch'.
+- Main branch is selected.
+- Folder is set to / (root).
+- Under Branch, click Save.
+- Go back to the Code tab. Wait a few minutes for the build to finish and refresh your repo.
+- On the right-hand side, in the Environments section, click on 'github-pages'.
+- Click View deployment to see the live site.
+
+- I got this info from https://shorturl.at/hjS27 .
+
+# Credits
+
+## Content
+- I reviewed many youtube videos to better understand how to approach my own memeory game, these were the videos I used 
+https://youtu.be/ZniVgo8U7ek?si=Gt5Nwrf0zuco1yDP
+https://youtu.be/M0egyNvsN-Y?si=1uL_XDNwNkXU59L3
+https://youtu.be/-tlb4tv4mC4?si=q3GTohXPjbku28DB#
+With these videos I was able to come to conclusion how similar each memory game i sand its approach, such as the same shuffle,match and cards functions.
+- My main code took a lot of insperation from this as it takled all the features i wanted, 
+https://shorturl.at/ayQY1
+- Allowed me to design better buttons 
+https://www.w3schools.com/css/css3_buttons.asp
+- Allowed me to make cool header 
+https://shorturl.at/dIU28
+- Helped me add start screen
+https://dev.to/saikatbishal/how-to-make-a-splash-screen-using-html-css-and-javascript-240m
+
+
+
+## Media
+- The favicon image came from
+Memory - Free miscellaneous icons
+- The icon images on the cards came from
+https://fontawesome.com/icons
