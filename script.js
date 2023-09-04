@@ -1,4 +1,5 @@
-const cards = document.querySelectorAll(".card");
+const cards = document.querySelectorAll("#card");
+const restarts = document.querySelector("#restart");
 
 let hasFlippedCard = false;
 let lockTable = false;
