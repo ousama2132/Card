@@ -1,12 +1,15 @@
+// select elements with class card and restart
 const cards = document.querySelectorAll("#card");
 const restarts = document.querySelector("#restart");
 
+// initialize variables to track the game state
 let hasFlippedCard = false;
 let lockTable = false;
 let firstCard, secondCard;
 
 cards.forEach((card) => card.addEventListener("click",flipCard));
 
+// Function to handle card flipping when clicked
 function flipCard() {
     if (lockTable) return ;
     if (this === firstCard) return;
@@ -22,11 +25,13 @@ function flipCard() {
     checkForMatch();
 }
 
+// function to check if two flipped cards match
 function checkForMatch() {
     let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
     isMatch?disableCards(): unflipCards();
 }
 
+// disable matched cards
 function disableCards() {
     firstCard.removeEventListener("click",flipCard);
     secondCard.removeEventListener("click",flipCard);
@@ -34,6 +39,7 @@ function disableCards() {
     resetTable();
 }
 
+// unflip unmatched cards
 function unflipCards() {
     lockTable = true;
 
@@ -45,12 +51,13 @@ function unflipCards() {
     }, 700);
 }
 
+// reset game state
 function resetTable () {
     [hasFlippedCard,lockTable] = [false,false];
     [firstCard,secondCard]=[null,null];
 }
 
-
+// shuffle cards
 (function shuffle() {
     cards.forEach((card)=> {
         let randomPos=Math.floor(Math.random()*12);
@@ -58,6 +65,7 @@ function resetTable () {
     });
 }) ();
 
+// screen handling
 var splashScreen = document.querySelector('.splash');
 splashScreen.addEventListener('click',()=>{
   splashScreen.style.opacity = 0;
@@ -68,6 +76,7 @@ splashScreen.addEventListener('click',()=>{
 
 restart.addEventListener("click", restartMemory);
 
+// restart memory 
 function restartMemory() {
     cards.forEach(card => {
         card.classList.remove("flip");

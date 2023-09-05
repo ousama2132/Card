@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/*title style*/
 header h1 {
     color: #bf9aca; 
     padding: 0 1rem;
@@ -19,6 +20,7 @@ header h1 {
       0px 0px 20px #b393d3;
 }
 
+/* body style*/
 body {
     min-height: 100vh;
     display: flex;
@@ -28,6 +30,7 @@ body {
     background-color:  black;
 }
 
+/* design and size of cards */
 #game {
     width: 640px;
     height: 640px;
@@ -39,11 +42,12 @@ body {
     padding-right: 80px;
 }
 
+/* size of icons */
 #front {
     font-size:150%;
 }
 
-
+/* card effects  */
 #card {
     display: flex;
     justify-content: center;
@@ -59,16 +63,19 @@ body {
     background: #bf9aca;
 }
 
+/* card transform effects */
 #card:active{
     transform: scale(0.97);
     transition: transform 0.1s;
 }
 
+/* card flip effect */
 #card.flip{
     transform: rotateY(180deg);
     background-color: black;
 }
 
+/* front and back of the card design */
 #front, #back{
     font-size: 100px;
     background: #bf9aca;
@@ -78,11 +85,13 @@ body {
     backdrop-filter: blur(2.8px);
 }
 
+/* card flip on the back side*/
 #back {
     transform: rotateY(180deg);
     background: #bf9aca;
 }
 
+/* starter screen design */
 .splash{
     cursor : pointer;
     position : fixed;
@@ -95,11 +104,13 @@ body {
     transition : all ease-in-out 600ms;
 }
 
+/* transition effect on starter screen */
 .hidden{
     transition : 0.5s;
     display : none;
 }
 
+/* text design starter screen*/
 .splash-h {
     height : 90%;
     color : white;
@@ -109,6 +120,7 @@ body {
     align-items : center;
 }
 
+/*restart button design*/
 #restart {
     color:#b393d3;
     text-shadow: 0px 0px 1px #b393d3, 0px 0px 2px #b393d3, 0px 0px 2px #b393d3,0px 0px 5px #b393d3;
@@ -122,11 +134,13 @@ body {
     font-size: 16px;
 }
 
+/* hover effect for button*/
 #restart:hover {
     background-color: #b393d3;
     color: black;
 }
 
+/* media quirees for different size screens*/
 @media screen and (max-width: 1281px) {
     #game{
         width: 500px;
