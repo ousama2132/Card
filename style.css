@@ -5,13 +5,12 @@
 }
 
 /*title style*/
-header h1 {
+#title {
     color: #bf9aca; 
     padding: 0 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    position:absolute;
     top:0;
     width: 100%;
     font-size: 80px;
